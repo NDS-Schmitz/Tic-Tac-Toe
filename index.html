@@ -5,14 +5,33 @@
     	<meta name="description" content="This is where your description goes">
     	<meta name="keywords" content="one, two, three">
 
-		<title>Title in the tab</title>
+		<title>Tic Tac Toe</title>
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-		
+		<h1>Tic Tac Toe</h1>
+		<section>
+			<h2>Rules</h2>
+			<p>Player 1 is X. Player 2 is O. First to three in a row wins!!!</p>
+		</section>
+		<!-- boxes for the game -->
+		<section class="boxes">
+			<div class="box" id="one"></div>
+			<div class="box" id="two"></div>
+			<div class="box" id="three"></div>
+			<div class="box" id="four"></div>
+			<div class="box" id="five"></div>
+			<div class="box" id="six"></div>
+			<div class="box" id="seven"></div>
+			<div class="box" id="eight"></div>
+			<div class="box" id="nine"></div>
+		</section>
+		<!-- winner text and restart button -->
+		<h2 class="winnerText"></h2>
+		<button class="restart">Restart</button>
 
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
