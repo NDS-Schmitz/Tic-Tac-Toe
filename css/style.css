@@ -10,9 +10,54 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
-
-
+body {
+  text-align: center;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+.boxes{
+  height: 300px;
+  width: 300px;
+  margin: 3rem auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  border: 3px solid black;
+}
+
+.box:first-child,
+.box:nth-child(2),
+.box:nth-child(3) {
+  border-top: none;
+}
+
+.box:nth-child(3n) {
+  border-right: none;
+}
+
+.box:nth-child(3n+1) {
+  border-left: none;
+}
+
+.box:nth-child(7),
+.box:nth-child(8),
+.box:nth-child(9) {
+  border-bottom: none;
+}
+
+.winnerText {
+  display: block;
+  height: 50px;
+}
+
+.restart {
+  height: 30px;
+  width: 80px;
+}
